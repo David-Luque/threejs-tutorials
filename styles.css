@@ -1,0 +1,27 @@
+
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+#c-canvas {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    pointer-events: none;
+    /* "pointer-events: none;" makes the canvas invisible to the mouse and touch events so you can select the text beneath */
+}
+#content {
+  font-size: 7vw;
+  font-family: sans-serif;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
