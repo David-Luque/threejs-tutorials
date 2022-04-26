@@ -4,11 +4,14 @@
   "description": "Three.js fundamentals tutorial",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --reporter list"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "three": "^0.139.2"
+  },
+  "devDependencies": {
+    "mocha": "^9.2.2"
   }
 }

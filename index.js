@@ -1,12 +1,7 @@
 import * as THREE from 'three';
 //import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
-//import { OrbitControls } from 'https://unpkg.com/three@<version>/examples/jsm/controls/OrbitControls.js';
 //import { GUI } from 'three/examples/jsm/libs/lil-gui.module.min.js';
-//import { GUI } from 'https://unpkg.com/three@<version>/examples/jsm/libs/lil-gui.module.min.js';
-
-console.log('from INDEX.JS')
-//console.log(OrbitControls)
-
+console.log(typeof require)
 
 function main() {
   const canvas = document.getElementById("c-canvas");
